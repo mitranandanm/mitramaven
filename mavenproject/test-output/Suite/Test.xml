@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-DDHK9H68" name="mavenprojectpack.Example" tests="3" failures="1" timestamp="10 Sep 2020 06:05:44 GMT" time="30.349" errors="0">
+  <testcase name="demomaven" time="30.25" classname="mavenprojectpack.Example"/>
+  <testcase name="testclasstwomaven" time="0.041" classname="mavenprojectpack.Example2"/>
+  <testcase name="testtoFail" time="0.025" classname="mavenprojectpack.Example2">
+    <failure type="java.lang.AssertionError" message="failed assert condition expected:&amp;lt;Mitra&amp;gt; but was:&amp;lt;mitra&amp;gt;">
+      <![CDATA[java.lang.AssertionError: failed assert condition expected:<Mitra> but was:<mitra>
+	at mavenprojectpack.Example2.testtoFail(Example2.java:17)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

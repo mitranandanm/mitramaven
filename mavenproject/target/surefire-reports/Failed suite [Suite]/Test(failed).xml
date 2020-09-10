@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-DDHK9H68" name="mavenprojectpack.Example" tests="1" failures="0" timestamp="23 Aug 2020 13:17:27 GMT" time="6.485" errors="0">
+  <testcase name="demomaven" time="6.477" classname="mavenprojectpack.Example"/>
+</testsuite>

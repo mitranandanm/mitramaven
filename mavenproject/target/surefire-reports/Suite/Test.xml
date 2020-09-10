@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-DDHK9H68" name="mavenprojectpack.Example" tests="3" failures="1" timestamp="10 Sep 2020 05:58:38 GMT" time="14.183" errors="0">
+  <testcase name="demomaven" time="14.142" classname="mavenprojectpack.Example"/>
+  <testcase name="testToFail" time="0.013" classname="mavenprojectpack.Example2">
+    <failure type="java.lang.AssertionError" message="failed assert condition expected:&amp;lt;Mitra&amp;gt; but was:&amp;lt;mitra&amp;gt;">
+      <![CDATA[java.lang.AssertionError: failed assert condition expected:<Mitra> but was:<mitra>
+	at mavenprojectpack.Example2.testToFail(Example2.java:17)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testclasstwomaven" time="0.0" classname="mavenprojectpack.Example2"/>
+</testsuite>
